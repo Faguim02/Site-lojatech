@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-box:hover > .navbar-search-text{
+  width: 240px;
+  padding: 0 6px;
+}
+@media screen and (max-width:510px) {
+  .Logo span{
+    font-size: 0;
+  }
+}
